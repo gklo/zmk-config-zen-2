@@ -75,10 +75,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp SQT    &kp LT     &kp GT     &kp DQT        &kp PERIOD    &kp AMPS   &kp GRAVE  &kp LBKT  &kp RBKT  &kp PRCNT  &kp BSPC
-&none  &kp EXCL   &kp MINUS  &kp PLUS   &kp EQUAL      &kp HASH      &kp PIPE   &kp COLON  &kp LPAR  &kp RPAR  &kp QMARK  &none
-&none  &kp CARET  &kp SLASH  &kp ASTRK  &kp BACKSLASH  &none         &kp TILDE  &kp DLLR   &kp LBRC  &kp RBRC  &kp AT     &none
-                             &trans     &trans         &kp SPACE     &kp RET    &trans     &trans
+&none  &kp SQT    &kp LT     &kp GT     &kp DQT        &kp PERIOD        &kp AMPS   &kp GRAVE  &kp LBKT  &kp RBKT  &kp PRCNT  &kp BSPC
+&none  &kp EXCL   &kp MINUS  &kp PLUS   &kp EQUAL      &kp HASH          &kp PIPE   &kp COLON  &kp LPAR  &kp RPAR  &kp QMARK  &none
+&none  &kp CARET  &kp SLASH  &kp ASTRK  &kp BACKSLASH  &kp UNDERSCORE    &kp TILDE  &kp DLLR   &kp LBRC  &kp RBRC  &kp AT     &none
+                             &trans     &trans         &kp SPACE         &kp RET    &trans     &trans
             >;
         };
 
