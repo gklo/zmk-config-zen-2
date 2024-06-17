@@ -58,10 +58,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LG(SPACE)  &none  &kp LA(LEFT)  &kp UP    &kp LA(RIGHT)  &kp C_VOLUME_UP      &none   &kp N7        &kp N8        &kp N9        &none  &kp BSPC
-&kp LC(SPACE)  &none  &kp LEFT      &kp DOWN  &kp RIGHT      &kp C_VOLUME_DOWN    &none   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none  &kp PAGE_UP
-&kp LC(LA(M))  &none  &kp HOME      &trans    &kp END        &kp K_MUTE           &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &kp PAGE_DOWN
-                                    &trans    &trans         &trans               &trans  &trans        &trans
+&kp LG(GRAVE)  &none          &kp LA(LEFT)  &kp UP    &kp LA(RIGHT)  &kp C_VOLUME_UP      &kp PAGE_UP    &kp N7        &kp N8        &kp N9        &none      &kp BSPC
+&kp LC(SPACE)  &kp LG(SPACE)  &kp LEFT      &kp DOWN  &kp RIGHT      &kp C_VOLUME_DOWN    &kp PAGE_DOWN  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp PLUS
+&kp LC(LEFT)   &kp LC(RIGHT)  &kp HOME      &trans    &kp END        &kp K_MUTE           &kp N0         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &kp ASTRK
+                                            &trans    &trans         &trans               &trans         &trans        &trans
             >;
         };
 
