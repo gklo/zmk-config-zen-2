@@ -60,7 +60,7 @@
             bindings = <
 &kp LG(GRAVE)  &none          &kp LA(LEFT)  &kp UP    &kp LA(RIGHT)  &kp C_VOLUME_UP      &kp PLUS  &kp MINUS  &kp ASTRK  &kp SLASH  &none   &kp BSPC
 &kp LC(SPACE)  &kp LG(SPACE)  &kp LEFT      &kp DOWN  &kp RIGHT      &kp C_VOLUME_DOWN    &kp N1    &kp N2     &kp N3     &kp N4     &kp N5  &none
-&kp LC(LEFT)   &kp LC(RIGHT)  &kp HOME      &trans    &kp END        &kp K_MUTE           &kp N6    &kp N7     &kp N8     &kp N9     &kp N0  &kp PERIOD
+&kp LC(LEFT)   &kp LC(RIGHT)  &kp PAGE_UP   &trans    &kp PAGE_DOWN  &kp K_MUTE           &kp N6    &kp N7     &kp N8     &kp N9     &kp N0  &kp PERIOD
                                             &trans    &trans         &trans               &trans    &trans     &trans
             >;
         };
