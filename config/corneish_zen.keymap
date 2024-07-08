@@ -48,9 +48,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&lt 3 TAB         &kp Q        &kp W           &kp E           &kp R             &kp T          &kp Y        &kp U              &kp I            &kp O            &kp P           &lt 3 BACKSPACE
+&lt 3 HOME        &kp Q        &kp W           &kp E           &kp R             &kp T          &kp Y        &kp U              &kp I            &kp O            &kp P           &lt 3 EQUAL
 &mt LCTRL ESCAPE  &mt LCTRL A  &mt LEFT_ALT S  &mt LEFT_GUI D  &mt LEFT_SHIFT F  &kp G          &kp H        &mt RIGHT_SHIFT J  &mt RIGHT_GUI K  &mt RIGHT_ALT L  &mt RCTRL SEMI  &kp SQT
-&kp MINUS         &kp Z        &kp X           &kp C           &kp V             &kp B          &kp N        &kp M              &kp COMMA        &kp DOT          &kp FSLH        &kp EQUAL
+&kp END           &kp Z        &kp X           &kp C           &kp V             &kp B          &kp N        &kp M              &kp COMMA        &kp DOT          &kp FSLH        &kp MINUS
                                                &mo 4           &lt 2 TAB         &lt 1 SPACE    &lt 1 ENTER  &lt 2 BACKSPACE    &mo 4
             >;
         };
