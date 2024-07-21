@@ -15,6 +15,7 @@
     #binding-cells = <2>;
     tapping-term-ms = <180>;
     quick-tap-ms = <0>;
+    require-prior-idle-ms = <125>;
     flavor = "tap-preferred";
     bindings = <&kp>, <&kp>;
 };
@@ -28,15 +29,6 @@
 };
 
 / {
-    behaviors {
-        td0: td0 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD0";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
